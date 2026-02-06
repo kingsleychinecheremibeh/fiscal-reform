@@ -27,7 +27,7 @@ const Contact = ()=> {
         });
     }   
     return (
-        <div className="">
+        <div className="w-full max-w-6xl mx-auto my-10 bg-white rounded shadow">
           <h1 className="font-bold text-left pl-5 text-3xl text-green-900">Get in Touch</h1> 
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between p-5">
             <div >
@@ -63,13 +63,13 @@ const Contact = ()=> {
                 <button type="submit" className="bg-green-900 text-white px-4 py-2 rounded-lg">Send Message</button>
               </form>
             </div>
-            <div className="space-y-4 mt-2 h-96 mx-2 p-2 text-white rounded bg-green-900">
+            <div className="space-y-4 mt-2 flex flex-col p-2 text-white rounded bg-green-900">
               <h4 className="mt-8">Secretariat</h4>
               <p>Abuja:</p>
               <p>The Presidency, Aso Rock Villa, Asokoro, FCT Abuja,Revenue House, 15 Sokode Crescent, Wuse Zone 5, FCT Abuja</p>
               <p>Lagos:</p>
               <p>Floor 7 Mulliner Towers, 39 Alfred Rewane Road, Ikoyi , Lagos</p>
-              <div className="flex">
+              <div>
                 <a href="mailto:info@fiscalreform.org" className="inline-flex items-center gap-2 px-8 py-4  text-white"><FiMail size={20}/> info@fiscalreform.org</a>
                 <a href="https://wa.me/2348109753151?text=Hi%20,%20I%20would%20like%20to%20discuss%20a%20more." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 px-8 py-4  text-white  "><FaWhatsapp size={20}/> WhatsApp</a>
               </div>
